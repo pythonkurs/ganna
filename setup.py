@@ -5,7 +5,7 @@ version = '0.1'
 
 setup(name='ganna',
       version=version,
-		scripts = ['scripts/getting_data.py'],
+		scripts = ['scripts/getting_data.py','scripts/check_repo.py'],
       description="Exercise 2 - NY trasportation",
       long_description="""\
 Calculate fraction of escalator that needs to be repared""",
