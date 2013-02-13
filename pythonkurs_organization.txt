@@ -1,0 +1,3 @@
+Wednesdays at 16 is the most common commit.
+
+These are two extremes situations: two commits have been posted at 2 A.M.  one commit has been posted at 7 A.M. The most common commit message is: "Initial commit", followed by "script".
