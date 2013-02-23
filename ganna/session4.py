@@ -1,9 +1,12 @@
+#!/usr/bin/env python
+
 import requests
 import json
+import getpass
 from dateutil import parser
 from pandas import DataFrame
 
-%paste
+
 class stat_repo(object):
 	
 	def __init__(self, username, password):
@@ -45,9 +48,13 @@ class stat_repo(object):
 			
 		
 def show(username,password):
+	password = getpass.getpass()
 	stat_repos = stat_repo(username,password)
 	stat_repos.df_commint()
 	print stat_repos.common_day_hour()
 
 
+user = raw_input("Enter your username: ")
+passw = getpass.getpass()
 
+show(user,passw)
