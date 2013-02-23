@@ -1,5 +1,6 @@
 import os
 
+
 class repo_dir(object):
 	def __init__(self, path):
 		self.current_path = os.getcwd()
@@ -11,6 +12,7 @@ class repo_dir(object):
 	def __exit__(self, *_):
 		os.chdir(self.current_path)
 
+@profile
 class CourseRepo(object):
 	
 	def __init__(self, surname):

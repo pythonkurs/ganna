@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+
 def ganna_outage ():
  	import requests
 	import untangle
